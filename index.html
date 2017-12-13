@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Halftone</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="image/image.ico" rel="shortcut icon" type="image/x-icon"/>
+</head>
+<body>
+<div class="wrapper">
+
+    <header class="header">
+        <div class="social-bar">
+            <a href="#facebook">
+                <div class="social-background">
+                    <img class="social-image" src="image/social-facebook.png">
+                </div>
+            </a>
+            <a href="#google">
+                <div class="social-background">
+                    <img class="social-image" src="image/social-google.png">
+                </div>
+            </a>
+            <a href="#pinterest">
+                <div class="social-background">
+                    <img class="social-image" src="image/social-pinterest.png">
+                </div>
+            </a>
+            <a href="#twitte">
+                <div class="social-background">
+                    <img class="social-image" src="image/social-twitter.png">
+                </div>
+            </a>
+        </div>
+        <div class="logo">
+            <a href="#">
+                <div class="logo-background"><span>Halftone</span></div>
+            </a>
+        </div>
+        <nav class="nav">
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#feature">FEATURES</a></li>
+                    <li><a href="#blog">BLOG</a></li>
+                    <li><a href="#work">WORK</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#purchase">PURCHASE</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-slider">
+            <input type="radio" name="point" id="slide1">
+            <input type="radio" name="point" id="slide2" checked>
+            <input type="radio" name="point" id="slide3">
+            <div class="slider">
+                <div class="slides slide1"></div>
+                <div class="slides slide2"></div>
+                <div class="slides slide3"></div>
+            </div>
+            <div class="controls">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+            </div>
+        </div>
+        <div class="delimiter">
+            <img src="image/line.png">
+        </div>
+        <div class="content">
+            <h1>HALFTONE IS STYLISH AND CUTE</h1>
+            <div class="grid">
+                <div class="article">
+                    <a href="#article1">
+                        <div class="article-image article-first"></div>
+                        <div class="data">
+                            <span class="d">14</span>
+                            <span class="m">DEC</span>
+                        </div>
+                        <div class="topic">New eu libero</div>
+                    </a>
+                </div>
+                <div class="article">
+                    <a href="#article2">
+                        <div class="article-image article-second"></div>
+                        <div class="data">
+                            <span class="d">29</span>
+                            <span class="m">DEC</span>
+                        </div>
+                        <div class="topic">Aliquam erat volutpat</div>
+                    </a>
+                </div>
+                <div class="article">
+                    <a href="#article3">
+                        <div class="article-image article-third"></div>
+                        <div class="data">
+                            <span class="d">18</span>
+                            <span class="m">JUN</span>
+                        </div>
+                        <div class="topic">Praesent dapibus</div>
+                    </a>
+                </div>
+            </div>
+            <div class="information">At distant inhabit amongst by.
+                Appetite welcomed interest the goodness boy not.
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-grid about-us">
+            <a href="#">About Us</a>
+            <div class="footer-block">Pellentesque habitant morbi tristique senectus
+                et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam,
+                feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit
+                amet quam egestas semper.
+            </div>
+        </div>
+        <div class="footer-grid">
+            <a href="#">Our Work</a>
+            <div class="footer-block">
+                <a href="#article1">
+                    <div class="work">
+                        <div class="article-first"></div>
+                        <div class="topic-name">
+                            <div>New eu libero</div>
+                            <div>DEC 14, 2017</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#article2">
+                    <div class="work">
+                        <div class="article-second"></div>
+                        <div class="topic-name">
+                            <div>Aliquam erat volutpat</div>
+                            <div>DEC 14, 2017</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#article3">
+                    <div class="work">
+                        <div class="article-third"></div>
+                        <div class="topic-name">
+                            <div>Praesent dapibus</div>
+                            <div>JUN 18, 2018</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="footer-grid video">
+            <a href="#">Featured Video</a>
+            <div class="footer-block">
+                <video width="270" height=160" controls="controls" poster="image/image-02.jpg">
+                    <source src="video/deep-space.mp4" type='video/ogg; codecs="theora, vorbis"'>
+                    <source src="video/deep-space.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    <source src="video/deep-space.mp4" type='video/webm; codecs="vp8, vorbis"'>
+                </video>
+            </div>
+        </div>
+        <div class="footer-grid contact">
+            <a href="#">Quick Contact</a>
+            <div class="footer-block">
+                <form class="feedback">
+                    <input class="input-text" type="text" placeholder="Your Name" name="name" size="45" required>
+                    <input class="input-text" type="email" placeholder="Email" size="45" name="email">
+                    <textarea class="input-text" placeholder="Message" name="message" rows="10" cols="45"></textarea>
+                    <input class="input-button" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </footer>
+
+</div>
+</body>
+</html>
